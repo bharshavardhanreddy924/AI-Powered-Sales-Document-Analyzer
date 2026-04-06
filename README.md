@@ -56,7 +56,6 @@ Download your results in multiple formats:
 
 ## 🏗️ Architecture Overview
 
-```mermaid
 flowchart TD
     A[📄 PDF Input] --> B[Text Extraction]
     B --> |PyPDF2, PyMuPDF, pdfplumber| C[🧠 LLM Processing]
