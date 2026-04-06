@@ -54,16 +54,6 @@ Download your results in multiple formats:
 
 ---
 
-## 🏗️ Architecture Overview
-
-```mermaid
-flowchart TD
-    A[📄 PDF Input] --> B[Text Extraction]
-    B --> |PyPDF2, PyMuPDF, pdfplumber| C[🧠 LLM Processing]
-    C --> |Groq API| D[🎯 Structured KPI Parsing]
-    D --> E[📊 Visualization Engine]
-    E --> |Plotly| F[💻 Streamlit Dashboard]
-
 ## 🛠️ Tech Stack
 
 | Category | Tools & Libraries |
@@ -96,27 +86,7 @@ export ALL_GROQ_API_KEYS="gsk_xxxxx,gsk_yyyyy"
 4. Run the Application
 Bash
 streamlit run app.py
-
-Usage
-Upload a sales PDF via the sidebar.
-
-Choose an analysis type:
-
-Comprehensive Analysis
-
-KPI Extraction
-
-Summary / Risk Assessment
-
-View the results:
-
-Read AI-generated insights.
-
-Interact with generated charts and metrics.
-
-Ask custom questions in the Q&A section to dive deeper.
-
-Export your results using the download buttons.
+```
 
 
 Unique Highlights
